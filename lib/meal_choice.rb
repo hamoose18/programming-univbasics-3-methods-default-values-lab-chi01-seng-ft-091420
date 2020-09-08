@@ -1,6 +1,8 @@
-def meal_choice (veg1, veg2, protien = 'tofu')
-  puts "what a nutritious meal!"
-  meal_choice = "a plate of #{protien} with #{veg1} and #{veg2}"
+def meal_choice(veg1, veg2, protein = 'tofu')
+  puts "What a nutritious meal!"
+  meal = "A plate of #{protein} with #{veg1} and #{veg2}."
+  puts meal
+  meal
 end
 
 
